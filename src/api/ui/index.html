@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Research Console</title>
+    <link rel="stylesheet" href="/ui-assets/styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <aside class="history-panel">
+        <div class="history-head">
+          <h2>History</h2>
+          <div class="history-actions">
+            <button id="new-topic-btn" type="button" class="ghost-btn">New Topic</button>
+            <button id="clear-history-btn" type="button" class="ghost-btn">Clear</button>
+          </div>
+        </div>
+        <ul id="history-list" class="history-list"></ul>
+      </aside>
+
+      <section class="workspace">
+        <header class="hero">
+          <p class="tag">Private Local Agent</p>
+          <h1>Local Research Console</h1>
+          <p class="subtitle">Gemini + Tavily + LangGraph, running only on your machine.</p>
+        </header>
+
+        <section class="panel request-panel">
+          <label for="query">Question</label>
+          <textarea id="query" rows="4" placeholder="Ask your research question..."></textarea>
+
+          <button id="run-btn" type="button">Run Research</button>
+          <p id="status" class="status">Ready.</p>
+        </section>
+
+        <section class="panel result-panel">
+          <div class="result-header">
+            <h2>Answer</h2>
+            <span id="topic-pill" class="pill">No topic selected</span>
+          </div>
+          <article id="answer" class="answer">Run a query to see results.</article>
+        </section>
+
+        <section class="panel sources-panel">
+          <h2>Sources</h2>
+          <ul id="sources" class="sources"></ul>
+        </section>
+      </section>
+    </main>
+
+    <script src="/ui-assets/app.js" defer></script>
+  </body>
+</html>

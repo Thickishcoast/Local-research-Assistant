@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+langgraph
+langchain
+langchain-google-genai
+langchain-community
+langgraph-checkpoint-sqlite
+python-dotenv
+pydantic-settings

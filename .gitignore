@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+
+# Virtual environments
+.venv/
+
+# Environment and secrets
+.env
+
+# Local databases and runtime state
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
