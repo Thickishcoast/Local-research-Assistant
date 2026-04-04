@@ -121,12 +121,3 @@ Add a secondary agent that learns user preferences and communication style from 
 - Store profile memories in a vector database for semantic retrieval.
 - Retrieve relevant profile memories at response time to personalize answers.
 
-### Design Guidance
-
-A separate web-search agent is useful for advanced, multi-step research, but not required immediately.
-Recommended order:
-
-1. Add vector memory.
-2. Add document ingestion and hybrid retrieval.
-3. Add multi-agent orchestration if workload complexity justifies it.
-4. Add a character memory agent for personalization.
