@@ -1,4 +1,4 @@
-# Local Research Console
+# Local Research Console (Work on Progress)
 
 A private, local research assistant built with **FastAPI**, **LangGraph**, **Gemini**, and **Tavily**.
 
