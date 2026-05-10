@@ -1,4 +1,4 @@
-# Local Research Console (Work on Progress)
+# Research Paper Assistant — LangGraph RAG Agent for Source-Grounded Paper QA (Work in Progress)
 
 A Web research assistant built with **FastAPI**, **LangGraph**, **Gemini**, and **Tavily**.
 
